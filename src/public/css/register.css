@@ -1,0 +1,103 @@
+/* ヘッダーのスタイル */
+.header {
+    background-color: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8c6d58; /* ロゴの色を落ち着いた茶色に変更 */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 36px; /* ロゴのフォントサイズを大きく */
+}
+
+/* フォーム全体のスタイル */
+.register-form__content {
+    background-color: #fff;
+    color: #8c6d58;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 500px; /* フォームの幅を固定 */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #8c6d58; /* タイトルの色を変更 */
+}
+
+/* 各フォームのフィールド */
+.form {
+    margin: 0 auto;
+    width: 100%; /* フォーム全体を幅いっぱいに */
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column; /* 各入力フィールドを縦に並べる */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%; /* フィールドの幅を100%に */
+    max-width: 400px; /* 最大幅を設定 */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    appearance: none;
+    font-size: 1rem;
+    background-color: #f9f5f0; /* 背景色を淡い色に */
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+/* エラーメッセージ */
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+/* ボタンのスタイル */
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 30px;
+    width: 20%; /* ボタンの幅を全体に */
+    max-width: 400px; /* ボタンの最大幅を設定 */
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8c6d58; /* ボタンの背景色を茶色に */
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form__button-submit:hover {
+    background-color: #70594a; /* ホバー時にボタンの色を変更 */
+}
+
